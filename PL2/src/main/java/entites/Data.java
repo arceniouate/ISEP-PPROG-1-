@@ -216,7 +216,7 @@ public class Data {
      * @return true se o ano passado por parâmetro for bissexto, caso contrário
      *         devolve false
      */        
-    public static boolean isAnoBissexto(int ano) {
+    public boolean isAnoBissexto(int ano) {
         return ano % 4 == 0 && ano % 100 != 0 || ano % 400 == 0;
     }
     
