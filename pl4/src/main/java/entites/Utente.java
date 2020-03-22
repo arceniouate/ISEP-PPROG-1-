@@ -207,7 +207,11 @@ public class Utente {
                      +" com "
                      +u2;
          }else{
-             return " TEM MESMA IDADE ";
+             return 
+                      uten.nome
+                     +" TEM MESMA IDADE "
+                      + nome ;
+
          }
         
     }
