@@ -51,11 +51,11 @@ public class Utente {
     }
 /****
  * COntri«utor completo com parametros
- * @param nome
- * @param genereo
- * @param idade
- * @param altura
- * @param peso 
+ * @param nome nome utente
+ * @param genereo genero utente
+ * @param idade idadde utente
+ * @param altura altura utente
+ * @param peso peso utente
  */
     public Utente(String nome, String genereo, int idade, double altura, int peso) {
         this.nome = nome;
@@ -66,8 +66,8 @@ public class Utente {
     }
 /***
  * Sobrecarga contrutor  com parametro que tem como objetivo a intanciacao da calsse com o nome e a is«dade 
- * @param nome
- * @param idade 
+ * @param nome utente
+ * @param idade idade utente
  */
     public Utente(String nome, int idade) {
         this.nome = nome;
@@ -76,50 +76,52 @@ public class Utente {
 
   /***
    * Acessor do genero do utente 
-   * @return 
+   * @return  genero
    */  
     public String getGenero() {
         return genero;
     }
     /***
      * Acessor do nome do utente do ginagio
-     * @return 
+     * @return  nome do utente 
      */
 
     public String getNome() {
         return nome;
     }
-/***
- * Modificador do nome 
- * @param nome 
- */
+
+    /**
+     * 
+     * @param nome  do utente
+     */
     public void setNome(String nome) {
         this.nome = nome;
     }
 /***
  * Acessor da idade 
- * @return 
+ * @return  idade do utente
  */
     public int getIdade() {
         return idade;
     }
-    /***
-     * Modificadeo r acesso da idade
-     * @param idade 
+    
+    /**
+     * 
+     * @param idade  do utente
      */
     public void setIdade(int idade) {
         this.idade = idade;
     }
 /**
  * acessor da altura 
- * @return 
+ * @return  altura do utente 
  */
     public double getAltura() {
         return altura;
     }
     /**
      * 
-     * @param altura 
+     * @param altura  do utente
      */
 
     public void setAltura(double altura) {
@@ -127,17 +129,23 @@ public class Utente {
     }
     /**
      * Acessor da altura do paciente
-     * @return 
+     * @return  peo do utente
      */
     public int getPeso() {
         return peso;
     }
 
+    /**
+     *
+     * @param peso do utente
+     */
     public void setPeso(int peso) {
         this.peso = peso;
-    } /***
+    }
+
+    /**
      * determina a diferenca das idades
-     * @param ages
+     * @param ag referencia da classe utente 
      * @return diference
      */
     public int DiferentOfAges(Utente ag){
@@ -150,7 +158,7 @@ public class Utente {
      * Detemmina o indice de massa corporaç
      * @param peso peso do utente 
      * @param hight altura do utente
-     * @return  IMC
+     * @return  IMC do utente
      */
     
     double  iMC(){
@@ -163,7 +171,6 @@ public class Utente {
     /***
      * Classificao os utente do gginasio
      * se e gordo magro
-     * @param iMC
      * @return  classificação
      */
      public String grauObesidade(){
@@ -182,7 +189,7 @@ public class Utente {
     /***
      * verificar o utente mais uten
      * @param uten utente 
-     * @return 
+     * @return  utente mais novo
      */
    public   String  yonguest(Utente uten){
          int u=uten.getIdade();
@@ -217,7 +224,7 @@ public class Utente {
     }
    /**
     * vaia mostrar textualmente o nome ,IMC e o grau de obesidade
-    * @return 
+    * @return represetação textual 
     */
    public String nomeIMCG(){
        return 
@@ -230,7 +237,8 @@ public class Utente {
    }
    /***
     * metodo para mostrar o nome e grau de obesidade 
-    * @return 
+    * @return onme e os grau de obesidade
+    * 
     */
    public String nomeGrau(){
          return 
@@ -240,6 +248,11 @@ public class Utente {
                +"Gº OBESIDADE : "+grauObesidade();
        
    }
+
+    /**
+     *
+     * @return representacao textual do utente
+     */
     @Override
     public String toString() {
         return " NOME :"

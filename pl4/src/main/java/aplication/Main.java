@@ -20,10 +20,9 @@ public class Main {
         List<Utente> i=new ArrayList();
        i.add(utente );
         i.add(utente2);
-        for (Utente utente1 : i) {
+        i.forEach((utente1) -> {
             System.out.println(utente1.nomeIMCG());
-            
-        }
+        });
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         for (Utente utente1 : i) {
             if(!utente1.grauObesidade().equals("SAUDAVEL"))

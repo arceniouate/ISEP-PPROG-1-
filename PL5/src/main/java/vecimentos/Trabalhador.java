@@ -23,12 +23,13 @@ public abstract class Trabalhador {
     /**
      * O nome por omissão do trabalhador.
      */
+    
     private static final String NOME_POR_OMISSAO = "sem nome";
 
     /**
      * Inicializa o nome do trabalhador com o nome recebido.
      *
-     * @param nome o nome do trabalhador
+     * @param nome o nome do trabalhador++++'''
      */
     public Trabalhador(String nome) {
         this.nome = nome;
