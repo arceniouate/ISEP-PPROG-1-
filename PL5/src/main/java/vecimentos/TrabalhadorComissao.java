@@ -157,7 +157,7 @@ public class TrabalhadorComissao extends Trabalhador {
     }
 
     /**
-     * Devolve o vencimento do trabalhador à comissão.
+     * Devolve o vencimento do trabalhador à comissão. 
      *
      * @return vencimento do trabalhador à comissão
      */

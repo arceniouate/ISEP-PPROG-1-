@@ -121,7 +121,6 @@ public class TrabalhadorHora extends Trabalhador {
 
     /**
      * Devolve o vencimento do trabalhador à hora.
-     *
      * @return vencimento do trabalhador à hora
      */
     @Override
