@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0176484-cfa3-4588-aefa-fe2c8a3b4976" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PL5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL5/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL5/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL5/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL5/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL5/PL5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL8/src/main/java/entites/Adjunto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL8/src/main/java/entites/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL8/src/main/java/entites/Assistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL8/src/main/java/entites/Bolseiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL8/src/main/java/entites/Coodenador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL8/src/main/java/entites/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL8/src/main/java/entites/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL8/src/main/java/entites/Salario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL8/src/main/java/myAplication/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../conatadorCliques/ContadorCliques.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PL5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL5/src/test/java/vecimentos/TrabalhadorHoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PL5/src/test/java/vecimentos/TrabalhadorHoraTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bv95m0TiH0qG9H2QFDmzrrFnzf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PL9-VencimentosBase" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0176484-cfa3-4588-aefa-fe2c8a3b4976" name="Default Changelist" comment="" />
+      <created>1589501518651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589501518651</updated>
+      <workItem from="1589501524349" duration="74000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1589501576949">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589501576949" />
+  </component>
+</project>
