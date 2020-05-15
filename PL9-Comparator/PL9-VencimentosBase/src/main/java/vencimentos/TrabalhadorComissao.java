@@ -73,9 +73,9 @@ public class TrabalhadorComissao extends Trabalhador {
     }
 
     /**
-     * Constrói uma instância de TrabalhadorComissao atribuindo o nome por 
-     * omissão, o salário base por omissão, o montante por omissão das vendas e 
-     * a percentagem por omissão da comissão de vendas do trabalhador à comissão.
+     * Constr&oacute;i uma inst&acirc;ncia de TrabalhadorComissao atribuindo o nome por
+     * omiss&atilde;o, o sal&aacute;rio base por omiss&atilde;o, o montante por omiss&atilde;o das vendas e
+     * a percentagem por omiss&atilde;o da comiss&atilde;o de vendas do trabalhador &agrave; comiss&atilde;o.
      */
     public TrabalhadorComissao() {
         super();
@@ -109,15 +109,6 @@ public class TrabalhadorComissao extends Trabalhador {
      */
     public float getComissao() {
         return comissao;
-    }
-
-    /**
-     * Modifica o salário base do trabalhador à comissão.
-     *
-     * @param salarioBase o novo salário base do trabalhador à comissão
-     */
-    public void setSalarioBase(float salarioBase) {
-        this.salarioBase = salarioBase;
     }
 
     /**
