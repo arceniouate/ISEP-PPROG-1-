@@ -47,23 +47,12 @@ public class TrabalhadorHoraTest {
         int expResult = 0;
         int result = instance.getNumeroHoras();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
     }
 
     /**
      * Test of getPagamentoHora method, of class TrabalhadorHora.
      */
-    @Test
-    public void testGetPagamentoHora() {
-        System.out.println("getPagamentoHora");
-        TrabalhadorHora instance = new TrabalhadorHora();
-        float expResult = 0.0F;
-        float result = instance.getPagamentoHora();
-        assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
 
     /**
      * Test of setNumeroHoras method, of class TrabalhadorHora.
@@ -74,8 +63,7 @@ public class TrabalhadorHoraTest {
         int numeroHoras = 0;
         TrabalhadorHora instance = new TrabalhadorHora();
         instance.setNumeroHoras(numeroHoras);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
     }
 
     /**
@@ -87,23 +75,10 @@ public class TrabalhadorHoraTest {
         float pagamentoHora = 0.0F;
         TrabalhadorHora instance = new TrabalhadorHora();
         instance.setPagamentoHora(pagamentoHora);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
     }
 
-    /**
-     * Test of toString method, of class TrabalhadorHora.
-     */
-    @Test
-    public void testToString() {
-        System.out.println("toString");
-        TrabalhadorHora instance = new TrabalhadorHora();
-        String expResult = "";
-        String result = instance.toString();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+
 
     /**
      * Test of calcularVencimento method, of class TrabalhadorHora.
@@ -115,8 +90,7 @@ public class TrabalhadorHoraTest {
         float expResult = 0.0F;
         float result = instance.calcularVencimento();
         assertEquals(expResult, result, 0.0);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
     }
     
 }
