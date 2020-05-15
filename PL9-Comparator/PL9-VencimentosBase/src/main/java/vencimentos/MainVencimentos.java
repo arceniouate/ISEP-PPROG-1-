@@ -1,7 +1,6 @@
 package vencimentos;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class MainVencimentos {
 
@@ -18,7 +17,13 @@ public class MainVencimentos {
         trabs.add(th);
 
         System.out.println("### Trabalhadores ###");
+        Vecimento c=new Vecimento();
+        Collections.sort(trabs,c);
         listar(trabs);
+
+        Collections.sort(trabs,Collections.reverseOrder(c));
+        listar(trabs);
+
 
     }
 

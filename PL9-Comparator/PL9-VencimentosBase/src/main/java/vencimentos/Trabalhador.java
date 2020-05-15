@@ -1,5 +1,7 @@
 package vencimentos;
 
+import java.util.Comparator;
+
 /**
  * Esta classe permite a construção de uma hierarquia de classes para
  * representarem diferentes tipos de trabalhadores. Especifica membros 
@@ -69,5 +71,6 @@ public abstract class Trabalhador {
      * @return vencimento do trabalhador
      */
     public abstract float calcularVencimento();
+
 
 }

@@ -163,4 +163,5 @@ public class TrabalhadorComissao extends Trabalhador {
         return salarioBase + vendas * (comissao / 100);
     }
 
+
 }
