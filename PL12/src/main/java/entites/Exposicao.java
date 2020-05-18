@@ -6,8 +6,7 @@ import java.util.List;
 /**
  * Essa e a classe que representa a exposiçaão dos quadros
  */
-public class Exposicão  implements  Comparable<Exposicão>{
-
+public class Exposicao  implements  Comparable<Exposicao>{
     /**
      * representavao do quadro atrvez da designação
      */
@@ -17,18 +16,19 @@ public class Exposicão  implements  Comparable<Exposicão>{
      */
     private Integer anoD;
 
-    public Exposicão(String desinacao, Integer anoD, List<Quadro> quadroList) {
-        this.desinacao = desinacao;
-        this.anoD = anoD;
-        this.quadroList = quadroList;
-    }
+
 
     /**
      * Lista de quadros
      */
     private List<Quadro> quadroList;
 
-    public Exposicão() {
+    public Exposicao() {
+    }
+    public Exposicao(String desinacao, Integer anoD, List<Quadro> quadroList) {
+        this.desinacao = desinacao;
+        this.anoD = anoD;
+        this.quadroList = quadroList;
     }
 
     public String getDesinacao() {
@@ -59,7 +59,7 @@ public class Exposicão  implements  Comparable<Exposicão>{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Exposicão exposicão = (Exposicão) o;
+        Exposicao exposicão = (Exposicao) o;
         return desinacao.equals(exposicão.desinacao) &&
                 anoD.equals(exposicão.anoD) &&
                 quadroList.equals(exposicão.quadroList);
@@ -72,20 +72,13 @@ public class Exposicão  implements  Comparable<Exposicão>{
      * @return true ou false
      */
     public boolean addQuadro(Quadro quadro){
-        if(quadroList.add(quadro)){
-            return  true;
-        }else{
-            return false ;
-        }
+        return(quadroList.add(quadro))?true:false;
     }
 
 
-    public boolean removeQ(Quadro quadro){
-        if(quadroList.remove(quadro)){
-            return true;
-        }else{
-            return false ;
-        }
+    public boolean  removeQ(Quadro quadro) {
+     return  (quadroList.remove(quadro))?true :false;
+
     }
 
     @Override
@@ -98,10 +91,9 @@ public class Exposicão  implements  Comparable<Exposicão>{
     }
 
 
-    public int compareTo(Exposicão exposicão){
-        if(anoD<exposicão.anoD){
-            return -1; }else if(anoD>exposicão.anoD){ return 1;
-        } else{return 0; }
+    public int compareTo(Exposicao exposicao) {
+        return (anoD < exposicao.anoD) ? -1 :
+                (anoD > exposicao.anoD) ? 1 : 0;
     }
-
 }
+

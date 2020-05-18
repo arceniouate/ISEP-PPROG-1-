@@ -100,6 +100,22 @@ return  new ArrayList<>();
         return cont;
     }
 
+    /***
+     *  compara a mao de jogo com o objeto recebido
+     *
+     * @param o objeto recebido compado co a mao de jogo
+     * @return
+     */
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        MaoDeJogo maoDeJogo1 = (MaoDeJogo) o;
+        return maoDeJogo.equals(maoDeJogo1.maoDeJogo);
+    }
+
+
+
     /**
      * Ordena a mão de jogo por naipe e, dentro do mesmo naipe, ordena por tipo.
      */

@@ -1,11 +1,13 @@
-package entites;
+package myAplication;
+
+import entites.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Contribuintes> list=new ArrayList<Contribuintes>();
+        List<Contribuintes> list = new ArrayList<Contribuintes>();
         list.add(new Desempregado("Lito Vidal", "Lisboa", 230, 1));
         list.add(new Reformado("Valter Cubilhas", "Olival", 600, 400));
         list.add(new Desempregado("Paulo Santos", "Braga", 150, 4));
@@ -17,10 +19,27 @@ public class Main {
         list.add(new TrabalhadorContaOutrem("João", "Lisboa", 800, 100, "CML"));
         list.add(new TrabalhadorContaPropria("Carla", "Porto", 15000, 1000, "Advogado"));
         list.add(new Desempregado("Maria Sá", "Afife", 230, 8));
-        list.remove(0);
-        for(Contribuintes c:list){
-            System.out.println(c);
-        }
+     //    list.remove(0);
+        String p =verificar( list);
+        System.out.println(p);
+        for (Contribuintes c : list) {
 
+           System.out.println(c.equals(1));
+
+
+        }
+    }
+
+    public static String verificar(List<Contribuintes> list) {
+        String  v ="";
+        for (Contribuintes trab : list) {
+            if (trab.getNome().equals("Lito Vidal")) {
+                return "Operacao realizada ";
+
+            } else {
+                return "Operacao não realizada";
+            }
+        }
+        return v;
     }
 }

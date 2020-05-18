@@ -1,5 +1,7 @@
 package jogodecartas;
 
+import java.util.Objects;
+
 /**
  * Representa uma carta.
  *
@@ -155,6 +157,18 @@ public class  Carta  implements  Comparable<Carta>{
         Carta outraCarta = (Carta) outroObjeto;
         return tipo == outraCarta.tipo && naipe == outraCarta.naipe;
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(tipo, naipe);
+    }
+
+    /**
+     * Compara os napes das cartas n
+     * com o objetivo de ordenar de acordeo com os nipes
+     * @param carta catas com mipes
+     * @return  coparacao o nipe comoutro nipe
+     */
     @Override
     public int compareTo(Carta carta) {
         return  naipe.compareTo(carta.naipe);
